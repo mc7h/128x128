@@ -1,8 +1,8 @@
 pico-8 cartridge // http://www.pico-8.com
 version 4
 __lua__
--- hello world
--- by zep
+-- Hello, world!
+-- by mc7h
 
 t = 0
 
@@ -14,7 +14,7 @@ end
 
 function _draw()
  cls()
-  
+
  for i=1,11 do
   for j0=0,7 do
   j = 7-j0
@@ -26,10 +26,9 @@ function _draw()
   spr(16+i, 8+i*8 + x, y)
   end
  end
- 
+
   print("this is pico-8",
     37, 70, 14) --8+(t/4)%8)
-
  print("nice to meet you",
     34, 80, 12) --8+(t/4)%8)
 
@@ -345,4 +344,3 @@ __music__
 00 41424344
 00 41424344
 00 41424344
-
